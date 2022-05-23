@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [2,8,13,15,7,28,69,4,45,32];
+    let dem = 0;
+    let b = [];
+    for (let i = 0; i<a.length;i++){
+        if(a[i] >10){
+            dem += 1;
+            b += a[i];
+        }
+    }
+    document.write("mang ban dau la : " + a +"</br>");
+    document.write("so luong so lon hon 10 trong mang la : " + dem +"</br>");
+    document.write(" cac so trong mang lon hon 10 la :" + b);
+</script>
+</body>
+</html>
